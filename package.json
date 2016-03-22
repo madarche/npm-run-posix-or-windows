@@ -1,0 +1,23 @@
+{
+  "name": "npm-run-posix-or-windows",
+  "version": "1.0.0",
+  "description": "Runs a script given the script base name suffixed by :posix or :windows",
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madarche/npm-run-posix-or-windows.git"
+  },
+  "scripts": {
+    "posttest": "npm run lint",
+    "lint:fix": "eslint --fix .",
+    "lint": "eslint ."
+  },
+  "bin": "./bin/cli.js",
+  "author": "Marc-Aurèle DARCHE <ma.darche@cynode.org> (https://github.com/madarche)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "2.4.0"
+  }
+}
