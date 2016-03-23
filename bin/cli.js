@@ -5,13 +5,11 @@
 const os = require('os')
 const child_process = require('child_process')
 
-const script_base_name = process.argv[2]
+let script_name = process.argv[2]
 
-let target = 'posix'
 if (os.type().indexOf('Windows') >= 0) {
-    target = 'windows'
+    script_name = `${script_name}:windows`
 }
-let script_name = `${script_base_name}:${target}`
 
 try {
     child_process.execSync(`npm run ${script_name}`, {stdio: 'inherit'})
