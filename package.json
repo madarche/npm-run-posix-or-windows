@@ -1,7 +1,7 @@
 {
   "name": "npm-run-posix-or-windows",
   "version": "2.0.0",
-  "description": "Runs a script given the script base name suffixed by :posix or :windows",
+  "description": "Portable NPM scripts when those have to work on Windows too",
   "engines": {
     "node": ">=4"
   },

@@ -1,6 +1,8 @@
 npm-run-posix-or-windows
 ========================
 
+[![NPM version](http://img.shields.io/npm/v/npm-run-posix-or-windows.svg)](https://www.npmjs.org/package/npm-run-posix-or-windows)
+
 This is a very lightweight and straightforward module that proposes a simple,
 yet limited, solution to write portable NPM scripts when those have to work on
 Windows too (the hell with Windows, hopefully someday all developers will be
