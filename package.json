@@ -2,6 +2,15 @@
   "name": "npm-run-posix-or-windows",
   "version": "2.0.0",
   "description": "Portable NPM scripts when those have to work on Windows too",
+  "keywords": [
+    "scripts",
+    "portable",
+    "windows",
+    "alternative",
+    "shell",
+    "posix",
+    "bash"
+  ],
   "engines": {
     "node": ">=4"
   },
