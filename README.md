@@ -4,6 +4,7 @@ npm-run-posix-or-windows
 [![NPM version](http://img.shields.io/npm/v/npm-run-posix-or-windows.svg)](https://www.npmjs.org/package/npm-run-posix-or-windows)
 [![Dependency Status](https://david-dm.org/madarche/npm-run-posix-or-windows.svg)](https://david-dm.org/madarche/npm-run-posix-or-windows)
 [![devDependency Status](https://david-dm.org/madarche/npm-run-posix-or-windows/dev-status.svg)](https://david-dm.org/madarche/npm-run-posix-or-windows#info=devDependencies)
+[![Build Status](https://travis-ci.org/madarche/npm-run-posix-or-windows.svg?branch=master)](https://travis-ci.org/madarche/npm-run-posix-or-windows)
 
 This is a very lightweight and straightforward module that proposes a simple,
 yet limited, solution to write portable NPM scripts when those have to work on

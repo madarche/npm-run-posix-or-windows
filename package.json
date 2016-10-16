@@ -20,6 +20,7 @@
   },
   "scripts": {
     "posttest": "npm run lint",
+    "test:ci": "npm test",
     "lint:fix": "eslint --fix .",
     "lint": "eslint ."
   },
@@ -27,6 +28,7 @@
   "author": "Marc-Aurèle DARCHE <ma.darche@cynode.org> (https://github.com/madarche)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "2.4.0"
+    "eslint": "3.8.0",
+    "eslint-config-usecases": "1.0.2"
   }
 }
