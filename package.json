@@ -28,7 +28,7 @@
   "author": "Marc-Aurèle DARCHE <ma.darche@cynode.org> (https://github.com/madarche)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "3.8.0",
-    "eslint-config-usecases": "1.0.2"
+    "eslint": "3.19.0",
+    "eslint-config-usecases": "1.1.0"
   }
 }

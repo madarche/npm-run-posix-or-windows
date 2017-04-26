@@ -14,7 +14,7 @@ if (os.type().indexOf('Windows') >= 0) {
 try {
     // Legitimate ESLint exception, because the script caller awaits the return
     // value (either success or failure) of the execution.
-    /* eslint no-sync: 0 */
+    // eslint-disable-next-line no-sync
     child_process.execSync(`npm run ${script_name}`, {stdio: 'inherit'})
 } catch (err) {
     console.error(err) // eslint-disable-line
